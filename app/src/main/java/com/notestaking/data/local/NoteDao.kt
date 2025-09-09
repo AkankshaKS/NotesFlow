@@ -1,4 +1,4 @@
-package com.notestaking.data
+package com.notestaking.data.local
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -8,7 +8,7 @@ import androidx.room.OnConflictStrategy
 @Dao
 interface NoteDao {
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Insert(onConflict = OnConflictStrategy.Companion.REPLACE)
     suspend fun insertNote(note : NoteEntity)
 
     @Delete

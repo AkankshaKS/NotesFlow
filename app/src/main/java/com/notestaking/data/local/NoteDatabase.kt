@@ -1,4 +1,4 @@
-package com.notestaking.data
+package com.notestaking.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

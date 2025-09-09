@@ -1,4 +1,4 @@
-package com.notestaking
+package com.notestaking.ui.theme.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
